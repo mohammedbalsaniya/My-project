@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #F6EBF4;
+    width: 100%;
+    position: sticky;
+    top: 0%;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.navTop{
+    width: 50%;
+    display: flex;
+    list-style: none;
+    font-size: 25px;
+}
+
+.nav-list-li{
+    cursor: pointer;
+    padding: 20px 30px;
+}
+
+.navRight{
+    width: 35%;
+    text-align: right;
+}
+a{
+    text-decoration: none;
+}
+
+
+.frist {
+    position: relative;
+    color: #4B2673;
+    padding-top: 2px;
+    padding-left: 137px;
+    font-size: 30px;
+    display: flex;
+    list-style: none;
+}
+
+.frist::after {
+    content: '|';
+    position: absolute;
+    right: 0%;
+    background-color: #F6EBF4;
+    width: 100%;
+    animation: typing 9s steps(37) alternate infinite, line 1s infinite;
+}
+
+@keyframes typing {
+    to {
+        width: 0%;
+    }
+}
+
+h1 {
+    padding: 5px 0;
+    text-shadow: 2px 2px 5px #ED0B70;
+}
+
+.container {
+    text-align: center;
+    background-color: #4B2673;
+    color: #F6EBF4;
+
+}
+
+.button {
+    background-color: #F6EBF4;
+    color: #4B2673;
+    padding: 0px 5px;
+    margin-right: 8px;
+    margin-top: auto;
+}
+
+
+.ulClass {
+    font-size: 20px;
+    padding: 0 12px;
+}
+
+p {
+    font-size: 20pt;
+}
+
+footer {
+    background-color: #ED0B70;
+
+}
+
+@media  only screen and (max-width:1070px) {
+    
+    
+}
