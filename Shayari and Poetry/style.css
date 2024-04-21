@@ -1,0 +1,119 @@
+/* This code done by Mohammad Balsaniya */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* header */
+.header{
+    font: 2em sans-serif;
+    border: 1px solid transparent;
+    height: 6rem;
+    background-color: #49beb7;
+    color: #cffdf8;
+    top: 0;
+    position: sticky;
+
+}
+
+.navList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.heading{
+    width: 50%;
+   margin:2% 0 0 5%;
+   font-size: 3rem;
+   font-weight: 800;
+   
+}
+
+.btn{
+    margin: 1% 0 0 0;
+    color: #49beb7;
+    background-color: #cffdf8;
+    font-size: 85%;
+    border-radius: 5px;
+    padding: 2px;
+}
+.btn:hover{
+    background-color: #f9fcfb;
+    color: #fd5e53;
+}
+
+/*main  */
+
+.fristLyer{
+    display: flex;
+    width: 100%;
+    
+}
+
+
+.fColum{
+    width: 50%;
+    height: initial;
+    background-color:#216583;
+    color: #cffdf8;
+    box-sizing: border-box;
+    font-size: 2rem;
+    padding: 20px;
+
+}
+
+.sColum{
+    width: 50%;
+    background-color: #cffdf8;
+    color: #216583;
+    box-sizing: border-box;
+    font-size: 2rem;
+    padding: 20px;
+}
+/* English footer*/
+
+.SecondLyer{
+    display: none;
+    width: 100%;
+}
+
+
+.frow{
+    width: 50%;
+    height: initial;
+    background-color:#f85f73;
+    color: #fbe8d3;
+    box-sizing: border-box;
+    font-size: 2rem;
+    padding: 20px;
+
+}
+
+.srow{
+    width: 50%;
+    background-color: #fbe8d3;
+    color: #f85f73;
+    box-sizing: border-box;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+/* updata version */
+
+.table{
+    display: flex;
+    border-spacing: 0px;
+}
+.table2{
+    display: none;
+}
+.tr{
+    font-size: 2rem;
+}
+
+.td{
+    padding: 20px;
+}
